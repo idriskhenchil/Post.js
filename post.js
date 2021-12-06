@@ -1,4 +1,4 @@
-var Fort = {
+var Post = {
     clean: function clean() {
         var forms = document.querySelectorAll(".form");
         for (var i = forms.length; i--;) {
@@ -21,7 +21,7 @@ var Fort = {
     },
 
     solid: function solid(hex) {
-        Fort.clean();
+        Post.clean();
         document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML;
 
         function cback(e) {
@@ -61,7 +61,7 @@ var Fort = {
     },
 
     gradient: function(firstColor, secondColor) {
-        Fort.clean();
+        Post.clean();
         document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML;
 
         function cback(e) {
@@ -101,7 +101,7 @@ var Fort = {
     },
 
     sections: function() {
-        Fort.clean();
+        Post.clean();
         for (var i = 0; i < arguments.length; ++i) {
             var args = Array.prototype.slice.call(arguments);
         }
@@ -169,7 +169,7 @@ var Fort = {
 
 
     flash: function() {
-        Fort.clean();
+        Post.clean();
         for (var i = 0; i < arguments.length; ++i) {
             var totalSections = arguments.length;
             var totalColors = arguments[i];
@@ -215,7 +215,7 @@ var Fort = {
     },
 
     merge: function(hex) {
-        Fort.clean();
+        Post.clean();
         document.body.innerHTML = '<div class="top-one" id="top1"><div class="colors"></div></div>' + document.body.innerHTML;
         document.body.innerHTML = '<div class="top-two" id="top2"><div class="colors"></div></div>' + document.body.innerHTML;
 

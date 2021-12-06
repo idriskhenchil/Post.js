@@ -2,12 +2,12 @@
 
 <h4> Previously known as Fort.js </h4>
 
-[![CDNJS](https://img.shields.io/cdnjs/v/Fort.js.svg)](https://cdnjs.com/libraries/Fort.js)
+[![CDNJS](https://img.shields.io/cdnjs/v/Post.js.svg)](https://cdnjs.com/libraries/Post.js)
 
 All you do is add the form and Post.js will take care of the rest. Best of all, it's super small. [Check out the demo!](http://idriskhenchil.github.io/default/index.html)
 
 ##Usage
-Using Post is so simple, it's simple. All you do is insert `post.min.js` and `post.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Fort does the rest.
+Using Post is so simple, it's simple. All you do is insert `post.min.js` and `post.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Post does the rest.
 ```html
 <head>
   <script src="post.min.js"></script>
@@ -57,7 +57,7 @@ Post.js now supports custom configuration, which offers the following properties
 
 **Example**
 
-    Fort.config({
+    Post.config({
     	height: '20px',
     	duration: '3s',
     	alignment: 'bottom'
@@ -76,12 +76,12 @@ Post.js now supports custom configuration, which offers the following properties
  * More effects. Have an idea? [Email](mailto:idriskhenchil@gmail.com) me!
 
 ##License
-Fort.js is licensed under the MIT license (http://opensource.org/licenses/MIT)
+Post.js is licensed under the MIT license (http://opensource.org/licenses/MIT)
 It's pretty simple, but here's the definition we get
 
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
 ##Acknowledgements
 
-**Post.js** is authored and maintained by Idris Khenchil,
+**Post.js** is authored and maintained by [Idris Khenchil](https://www.twitter.com/idriskhenchil),
 feel free to check out the demo [here](http://idriskhenchil.github.io/default/index.html). Used Post in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
 
