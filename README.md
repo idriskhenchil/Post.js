@@ -1,16 +1,17 @@
-<h1>Fort.js</h1>
+<h1>Post.js</h1>
+
+<h4> Previously known as Fort.js </h4>
 
 [![CDNJS](https://img.shields.io/cdnjs/v/Fort.js.svg)](https://cdnjs.com/libraries/Fort.js)
 
-Modern progress bar for form completion.
-All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it's super small. [Check out the demo!](http://idriskhenchil.github.io/default/index.html)
+All you do is add the form and Post.js will take care of the rest. Best of all, it's super small. [Check out the demo!](http://idriskhenchil.github.io/default/index.html)
 
 ##Usage
-Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Fort does the rest.
+Using Post is so simple, it's simple. All you do is insert `post.min.js` and `post.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Fort does the rest.
 ```html
 <head>
-  <script src="fort.min.js"></script>
-  <link rel="stylesheet" href="fort.min.css">
+  <script src="post.min.js"></script>
+  <link rel="stylesheet" href="post.min.css">
 </head>
 <body>
 <div class="form">
@@ -19,14 +20,14 @@ Using Fort is so simple, it's simple. All you do is insert `fort.min.js` and `fo
   </form>
 </div>
   <script>
-      Fort.flash("#009DFF", "#000", "#6638F0");
+      Post.flash("#009DFF", "#000", "#6638F0");
   </script>
 </body>
 ```
 
 **Certain fields:**
 
-If you want to include only certain fields add a class named `ignore` to the field. Fort will not detect the field after you do so.
+If you want to include only certain fields add a class named `ignore` to the field. Post will not detect the field after you do so.
 ##Effects
  * [Default](http://idriskhenchil.github.io/default/index.html) - `solid()`
  * [Gradient](http://idriskhenchil.github.io/gradient/index.html) - `gradient()`
@@ -35,18 +36,18 @@ If you want to include only certain fields add a class named `ignore` to the fie
  * [Merge](http://idriskhenchil.github.io/merge/index.html) - `merge()`
 
 **Changing the colors:**
-* Solid - `Fort.solid("#009DFF")` Keepin' it simple
+* Solid - `Post.solid("#009DFF")` Keepin' it simple
 
-* Gradient - `Fort.gradient("#009DFF", "#47B9FF")` Note that only two values should be passed.
+* Gradient - `Post.gradient("#009DFF", "#47B9FF")` Note that only two values should be passed.
 
-* Sections - `Fort.sections("#009DFF", "#4AF2A1", "#FB5229")` The more colors you add, the more sections you get!
+* Sections - `Post.sections("#009DFF", "#4AF2A1", "#FB5229")` The more colors you add, the more sections you get!
 
-* Flash - `Fort.flash("#009DFF", "#000", "#6638F0");` Old school, yet unique.
+* Flash - `Post.flash("#009DFF", "#000", "#6638F0");` Old school, yet unique.
 
-* Merge `Fort.merge("#009DFF");` *Tip*: Add a few more colors and see what you get (Not 100% tested)
+* Merge `Post.merge("#009DFF");` *Tip*: Add a few more colors and see what you get (Not 100% tested)
 
 ##Custom Configuration
-Fort.js now supports custom configuration, which offers the following properties
+Post.js now supports custom configuration, which offers the following properties
 
 `height`: Height in any CSS notation
 
@@ -81,6 +82,6 @@ It's pretty simple, but here's the definition we get
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
 ##Acknowledgements
 
-**Fort.js** is authored and maintained by Idris Khenchil,
-feel free to check out the demo [here](http://idriskhenchil.github.io/default/index.html). Used Fort in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
+**Post.js** is authored and maintained by Idris Khenchil,
+feel free to check out the demo [here](http://idriskhenchil.github.io/default/index.html). Used Post in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
 
