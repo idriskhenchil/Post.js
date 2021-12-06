@@ -6,7 +6,7 @@
 
 All you do is add the form and Post.js will take care of the rest. Best of all, it's super small. [Check out the demo!](https://idriskhenchil.github.io/)
 
-##Usage
+## Usage
 Using Post is so simple, it's simple. All you do is insert `post.min.js` and `post.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Post does the rest.
 ```html
 <head>
@@ -28,8 +28,8 @@ Using Post is so simple, it's simple. All you do is insert `post.min.js` and `po
 **Certain fields:**
 
 If you want to include only certain fields add a class named `ignore` to the field. Post will not detect the field after you do so.
-##Effects
- * [Default](http://idriskhenchil.github.io/default/index.html) - `solid()`
+## Effects
+ * [Default](http://idriskhenchil.github.io/index.html) - `solid()`
  * [Gradient](http://idriskhenchil.github.io/gradient/index.html) - `gradient()`
  * [Sections](http://idriskhenchil.github.io/sections/index.html) - `sections()`
  * [Flash](http://idriskhenchil.github.io/flash/index.html) - `flash()`
@@ -46,7 +46,7 @@ If you want to include only certain fields add a class named `ignore` to the fie
 
 * Merge `Post.merge("#009DFF");` *Tip*: Add a few more colors and see what you get (Not 100% tested)
 
-##Custom Configuration
+## Custom Configuration
 Post.js now supports custom configuration, which offers the following properties
 
 `height`: Height in any CSS notation
@@ -65,22 +65,22 @@ Post.js now supports custom configuration, which offers the following properties
     
 **Please note an effect must also be selected**
 
-##Browser Support
+## Browser Support
  * Safari 7.0 
  * Opera 21 
  * Mozila Firefox 29 and up
  * Google Chrome 34 and up
  * Internet Exporer 8.0 and up 
  
-##Coming soon
+## Coming soon
  * More effects. Have an idea? [Email](mailto:idriskhenchil@gmail.com) me!
 
-##License
+## License
 Post.js is licensed under the MIT license (http://opensource.org/licenses/MIT)
 It's pretty simple, but here's the definition we get
 
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
-##Acknowledgements
+## Acknowledgements
 
 **Post.js** is authored and maintained by [Idris Khenchil](https://www.twitter.com/idriskhenchil),
 feel free to check out the demo [here](http://idriskhenchil.github.io/default/index.html). Used Post in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
