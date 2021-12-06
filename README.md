@@ -4,7 +4,7 @@
 
 [![CDNJS](https://img.shields.io/cdnjs/v/Post.js.svg)](https://cdnjs.com/libraries/Post.js)
 
-All you do is add the form and Post.js will take care of the rest. Best of all, it's super small. [Check out the demo!](http://idriskhenchil.github.io/default/index.html)
+All you do is add the form and Post.js will take care of the rest. Best of all, it's super small. [Check out the demo!](https://idriskhenchil.github.io/)
 
 ##Usage
 Using Post is so simple, it's simple. All you do is insert `post.min.js` and `post.min.css` into the `<head>` then pop in an `<input>` into `<div class="form">`. Anything outside of the `<div>` won't count. Now you just call the effect (Scroll down to the the "Effects" section for more). Yep, that's all there is to it. Post does the rest.
