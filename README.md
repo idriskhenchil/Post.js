@@ -2,8 +2,6 @@
 
 <h4> Previously known as Fort.js </h4>
 
-[![CDNJS](https://img.shields.io/cdnjs/v/Post.js.svg)](https://cdnjs.com/libraries/Post.js)
-
 All you do is add the form and Post.js will take care of the rest. Best of all, it's super small. [Check out the demo!](https://idriskhenchil.github.io/)
 
 ## Usage
@@ -73,7 +71,7 @@ Post.js now supports custom configuration, which offers the following properties
  * Internet Exporer 8.0 and up 
  
 ## Coming soon
- * More effects. Have an idea? [Email](mailto:idriskhenchil@gmail.com) me!
+ * More effects. Have an idea? [Twitter](https://www.twitter.com/idriskhenchil) me!
 
 ## License
 Post.js is licensed under the MIT license (http://opensource.org/licenses/MIT)
@@ -83,5 +81,5 @@ The MIT License is a permissive license that is short and to the point. It lets 
 ## Acknowledgements
 
 **Post.js** is authored and maintained by [Idris Khenchil](https://www.twitter.com/idriskhenchil),
-feel free to check out the demo [here](http://idriskhenchil.github.io/default/index.html). Used Post in a project? I'd love to see it, [email](mailto:idriskhenchil@gmail.com) me.
+feel free to check out the demo [here](http://idriskhenchil.github.io/index.html). Used Post in a project? I'd love to see it, [Twitter](https://www.twitter.com/idriskhenchil) me.
 
